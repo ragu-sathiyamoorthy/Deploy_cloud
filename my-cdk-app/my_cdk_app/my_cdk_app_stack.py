@@ -7,4 +7,4 @@ class MyCdkStack(core.Stack):
         super().__init__(scope, id, **kwargs)
 
         # Create an S3 bucket
-        s3.Bucket(self, "MyS3Bucket")
+        s3.Bucket(self, "17102023MyS3Bucket")
